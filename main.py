@@ -19,3 +19,4 @@ print(new_lang._info)
 print(gettext.find('base', 'locale'))
 
 print(gettext.gettext('This is a translatable string.'))
+print(_('This is a translatable string.'))
